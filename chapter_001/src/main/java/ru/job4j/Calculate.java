@@ -5,6 +5,7 @@ package ru.job4j;
  *author kbalakin
  *@since 09.01.2018
  *version'
+ * coomiting in idea
  */
 
 public class Calculate {
