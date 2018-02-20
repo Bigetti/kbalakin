@@ -10,6 +10,8 @@ public class Point {
 	}
 	
 	public double distanceTo(Point that) {
+		Point a = this;
+		Point b = that;
 		int x1 = a.x;
 		int y1 = a.y;
 		int x2 = b.x;

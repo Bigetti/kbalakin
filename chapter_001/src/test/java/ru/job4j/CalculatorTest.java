@@ -6,36 +6,37 @@ import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
 public class CalculatorTest {
-    @Test
-    public void whenAddOnePlusOneThenTwo() {
-        Calculator calc = new Calculator();
-        calc.add(1D, 1D);
-        double result = calc.getResult();
-        double expected = 2D;
-        assertThat(result, is(expected));
-    }
-	
-	public void whenSubstrOneMinOneThenZero () {
+	@Test
+	public void whenAddOnePlusOneThenTwo() {
 		Calculator calc = new Calculator();
-		calc.Substr(1D ,1D);
+		calc.add(1D, 1D);
+		double result = calc.getResult();
+		double expected = 2D;
+		assertThat(result, is(expected));
+	}
+
+	public void whenSubstrOneMinOneThenZero() {
+		Calculator calc = new Calculator();
+		calc.Substr(1D, 1D);
 		double result = calc.getResult();
 		double expected = 0D;
 		assertThat(result, is(expected));
 	}
-	
-	public void whenDivOneDivOneThenOne () {
+
+	public void whenDivOneDivOneThenOne() {
 		Calculator calc = new Calculator();
-		calc.Substr(1D ,1D);
+		calc.Substr(1D, 1D);
 		double result = calc.getResult();
 		double expected = 1D;
 		assertThat(result, is(expected));
 	}
-	
-	public void whenMultiOneMultiOneThenOne () {
+
+	public void whenMultiOneMultiOneThenOne() {
 		Calculator calc = new Calculator();
-		calc.Substr(1D ,1D);
+		calc.Substr(1D, 1D);
 		double result = calc.getResult();
 		double expected = 1D;
 		assertThat(result, is(expected));
+	}
 }
 
