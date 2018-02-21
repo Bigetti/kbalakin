@@ -8,7 +8,7 @@ import static org.junit.Assert.assertThat;
 public class CalculatorTest {
 	@Test
 	public void whenAddOnePlusOneThenTwo() {
-		Calculator calc = new Calculator();
+		ru.job.calculate.Calculator calc = new ru.job.calculate.Calculator();
 		calc.add(1D, 1D);
 		double result = calc.getResult();
 		double expected = 2D;
@@ -16,24 +16,24 @@ public class CalculatorTest {
 	}
 
 	public void whenSubstrOneMinOneThenZero() {
-		Calculator calc = new Calculator();
-		calc.Substr(1D, 1D);
+		ru.job.calculate.Calculator calc = new ru.job.calculate.Calculator();
+
 		double result = calc.getResult();
 		double expected = 0D;
 		assertThat(result, is(expected));
 	}
 
 	public void whenDivOneDivOneThenOne() {
-		Calculator calc = new Calculator();
-		calc.Substr(1D, 1D);
+		ru.job.calculate.Calculator calc = new ru.job.calculate.Calculator();
+
 		double result = calc.getResult();
 		double expected = 1D;
 		assertThat(result, is(expected));
 	}
 
 	public void whenMultiOneMultiOneThenOne() {
-		Calculator calc = new Calculator();
-		calc.Substr(1D, 1D);
+		ru.job.calculate.Calculator calc = new ru.job.calculate.Calculator();
+
 		double result = calc.getResult();
 		double expected = 1D;
 		assertThat(result, is(expected));
