@@ -5,7 +5,7 @@ package ru.job4j.calculator;
  */
   public class Converter  {
 
-	
+
 
 	public static final int RUB_FOR_DOLLAR = 60;
 	public static final  int RUB_FOR_EURO = 70;
