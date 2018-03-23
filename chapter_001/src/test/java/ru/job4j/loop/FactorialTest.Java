@@ -12,7 +12,7 @@ public class FactorialTest {
         int event = factorial.calc(6);
         assertThat(event, is(720));
     }
-
+    @Test
     public void whenNisFive() {
         Factorial factorial = new Factorial();
         int event = factorial.calc(5);
