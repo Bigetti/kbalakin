@@ -21,5 +21,6 @@ public class BoardTest {
     @Test
     public void whenPaintBoardWithWidthFiveAndHeightFourThenStringWithFiveColsAndFourRows() {
         //напишите здесь тест, проверяющий формирование доски 5 на 4.
+        //пишу
     }
 }
