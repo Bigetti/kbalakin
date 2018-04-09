@@ -13,8 +13,8 @@ public class SquareTest {
         int[] expect = new int[] {1, 4, 9};
         assertThat(rst, is(expect));
     }
-
-    public void whenBound4Then1416() {
+    @Test
+    public void whenBound4Then14916() {
         int bound = 4;
         Square square = new Square();
         int[] rst = square.calculate(bound);
