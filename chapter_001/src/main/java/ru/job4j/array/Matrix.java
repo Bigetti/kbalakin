@@ -3,7 +3,7 @@ package ru.job4j.array;
 public class Matrix {
 
 
-// поправлен номер урока на 5.4
+// поправлен номер урока на 5.4 еще раз
 
     public int[][] multiple(int size) {
 
