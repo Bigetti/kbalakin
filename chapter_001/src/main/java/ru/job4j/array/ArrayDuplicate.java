@@ -1,20 +1,25 @@
-/*  package ru.job4j.array;
+package ru.job4j.array;
 
 
-public class Duplicate; {
+import java.util.Arrays;
 
-public String[]remove(String[]array); {
-        int leng = 5;
-        String[] start = new string[leng];
-        String[] finish = new string[leng];
-        String[0] start == string[0] finish;
-        For (int i = 1; i <= array.leight; I++);
-            For (int j = 1; j <= array.leight; j++);
-                if (i != j) {
-                    return i;
-                    string temp = i;
+public class ArrayDuplicate {
 
+    public String[] remove(String[] array) {
+        int leng = array.length - 1;
+        String tmp;
+        for (int i = 1; i <= leng; i++) {
+            if (array[0].equals(array[i])) {
+                tmp = array[i];
+                for (int j = i; j <= leng - 1; j++) {
+                    array[j] = array[j + 1];
+                }
+                array[leng - 1] = tmp;
+                break;
+            }
         }
+        return Arrays.copyOf(array, 3);
     }
 }
-*/
+
+
