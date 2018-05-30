@@ -14,3 +14,4 @@ public class Check {
         return result;
     }
 }
+// можно упростить. != break и тогда убрать else.
