@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="59" started-at="2018-06-14T09:31:45Z" finished-at="2018-06-14T09:31:45Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="59" started-at="2018-06-14T09:31:45Z" finished-at="2018-06-14T09:31:45Z">
+      <class name="ru.job4j.calculator.ConverterTest">
+        <test-method status="PASS" signature="when60RubleToDollarThen1()[pri:0, instance:ru.job4j.calculator.ConverterTest@35f983a6]" name="when60RubleToDollarThen1" duration-ms="11" started-at="2018-06-14T09:31:45Z" finished-at="2018-06-14T09:31:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when60RubleToDollarThen1 -->
+        <test-method status="PASS" signature="when70RubleToEuroThen1()[pri:0, instance:ru.job4j.calculator.ConverterTest@35f983a6]" name="when70RubleToEuroThen1" duration-ms="1" started-at="2018-06-14T09:31:45Z" finished-at="2018-06-14T09:31:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- when70RubleToEuroThen1 -->
+      </class> <!-- ru.job4j.calculator.ConverterTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
