@@ -10,6 +10,8 @@ public class MatrixCheck {
                 break;
             }
         }
+        if (data[0][0] != data[x][0])
+            result = false;
         return result;
 
     }

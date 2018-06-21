@@ -33,7 +33,7 @@ public class MatrixCheckTest {
     }
 
     @Test
-    public void whenDataMonoByFalseThenFalse() {
+    public void whenDataMonoByFalseThenTrue() {
         MatrixCheck check = new MatrixCheck();
 
         boolean[][] input = new boolean[][]{
@@ -68,7 +68,7 @@ public class MatrixCheckTest {
                 {false, false, true, true}
         };
         boolean result = check.mono(input);
-        assertThat(result, is(true));
+        assertThat(result, is(false));
     }
 }
 
