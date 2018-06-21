@@ -9,6 +9,7 @@ public class MatrixCheckTest {
     @Test
     public void whenDataMonoByTrueThenTrue() {
         MatrixCheck check = new MatrixCheck();
+
         boolean[][] input = new boolean[][]{
                 {true, true, true},
                 {false, true, true},
@@ -21,6 +22,7 @@ public class MatrixCheckTest {
     @Test
     public void whenDataNotMonoByTrueThenFalse() {
         MatrixCheck check = new MatrixCheck();
+
         boolean[][] input = new boolean[][]{
                 {true, true, false},
                 {false, false, true},
@@ -33,6 +35,7 @@ public class MatrixCheckTest {
     @Test
     public void whenDataMonoByFalseThenFalse() {
         MatrixCheck check = new MatrixCheck();
+
         boolean[][] input = new boolean[][]{
                 {false, true, false},
                 {false, false, true},
@@ -45,6 +48,7 @@ public class MatrixCheckTest {
     @Test
     public void whenOneisTrueAndOneIsFalse() {
         MatrixCheck check = new MatrixCheck();
+
         boolean[][] input = new boolean[][]{
                 {true, true, false},
                 {false, false, true},
