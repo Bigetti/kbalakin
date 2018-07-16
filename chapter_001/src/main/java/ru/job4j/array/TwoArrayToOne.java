@@ -36,8 +36,8 @@ public class TwoArrayToOne {
                 j++;
             }
         }
-        System.arraycopy(a, i, result, k, (a.length - i));
-        System.arraycopy(b, j, result, k, (b.length - j));
+       // System.arraycopy(a, i, result, k, (a.length - i));
+       // System.arraycopy(b, j, result, k, (b.length - j));
         return result;
     }
 }
