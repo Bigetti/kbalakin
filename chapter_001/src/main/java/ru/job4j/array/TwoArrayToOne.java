@@ -12,8 +12,16 @@ public class TwoArrayToOne {
         int i = 0;
         int j = 0;
         int k = 0;
-        while (i < a.length && j < b.length) {
-            if (a[i] < b[j]) {
+        while (i < a.length || j < b.length) {
+            if(i==a.length){
+                result[k++] = b[j];
+                j++;
+            }
+            else if(j==b.length){
+                result[k++] = a[i];
+                i++;
+            }
+            else if (a[i] < b[j]) {
                 result[k++] = a[i];
                 i++;
             }
